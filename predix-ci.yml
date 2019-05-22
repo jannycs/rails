@@ -1,0 +1,12 @@
+pipeline:
+  first-step: 
+    second-step:
+      third-step
+      
+steps:
+  first-step:
+    script: "echo First"
+  second-step:
+    script: "echo Second"
+  third-step:
+    script: "echo Third"
